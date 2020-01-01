@@ -54,3 +54,9 @@
 {
 #include "Elle Lord/Staff.event"
 }
+{
+#include "ClericUnarmed.event"
+}
+{
+#include "PriestMagic.event"
+}

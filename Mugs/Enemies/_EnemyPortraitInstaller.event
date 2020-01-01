@@ -23,8 +23,8 @@ setMugEntry(BRUCKNER_PORTRAIT, BrucknerMug, 3, 5, 3, 3)
 BrucknerMug:
 #incext PortraitFormatter "Bruckner.png"
 
-#define BEAR_PORTRAIT Bear
-setMugEntry(BEAR_PORTRAIT, BearMug, 2, 3, 4, 0)
+#define BEAR_PORTRAIT BearBoss
+setMugEntry(BEAR_PORTRAIT, BearMug, 2, 3, 5, 0)
 BearMug:
 #incext PortraitFormatter "Bear.png"
 
@@ -34,3 +34,7 @@ setMugEntry(KAJARN_PORTRAIT, KajarnMug, 3, 5, 3, 3)
 KajarnMug:
 #incext PortraitFormatter "Kajarn.png"
 
+#define PLACEHOLDER_PORTRAIT 0xFF
+setMugEntry(PLACEHOLDER_PORTRAIT, PlaceholderMug, 2, 5, 0, 0)
+PlaceholderMug:
+#incext PortraitFormatter "Placeholder.png"
