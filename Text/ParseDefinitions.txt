@@ -134,4 +134,8 @@
 [LoadPurpleSoldier] = [LoadFace][0x70][0x1]
 [LoadWhiteSoldier] = [LoadFace][0x71][0x1]
 [LoadBelmonte] = [LoadPlaceholder]
-
+[LoadRynod] = [LoadPlaceholder]
+[LoadMandel] = [LoadPlaceholder]
+[LoadAlbinia] = [LoadPlaceholder]
+[LoadBarrymore] = [LoadPlaceholder]
+[LoadBear] = [LoadFace][0x52][0x01]
